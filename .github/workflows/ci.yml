@@ -14,4 +14,5 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run demo command
-        run: echo "CI/CD Pipeline ran successfully!"
+        run: exit 1
+
